@@ -1,0 +1,17 @@
+Package: sparsenet
+Type: Package
+Title: Fit sparse linear regression models via nonconvex optimization
+Version: 1.0
+Date: 2012-01-22
+Author: Rahul Mazumder, Trevor Hastie, Jerome Friedman
+Maintainer: Trevor Hastie <hastie@stanford.edu>
+Description: Sparsenet uses the MC+ penalty of Zhang. It computes the
+        regularization surface over both the family parameter and the
+        tuning parameter by coordinate descent.
+Depends: glmnet, shape, abind
+License: GPL-2
+URL:
+        http://www.stanford.edu/~hastie/Papers/Sparsenet/jasa_MFH_final.pdf
+Packaged: 2012-02-20 07:12:52 UTC; hastie
+Repository: CRAN
+Date/Publication: 2012-03-03 14:22:49

@@ -1,0 +1,16 @@
+exportPattern("^[[:alpha:]]+")
+useDynLib("sparsenet")
+importFrom(utils,head,tail,packageDescription)
+export(sparsenet,
+       coef.sparsenet,cv.sparsenet,getcoef_list,plot.cv.sparsenet,plot.cv.sparsenet,plot.sparsenet,predict.cv.sparsenet,
+       predict.sparsenet,print.cv.sparsenet,print.sparsenet,summary.sparsenet,sparsepredict)
+
+
+S3method("print","sparsenet")
+S3method("print","cv.sparsenet")
+S3method("predict","sparsenet")
+S3method("predict","cv.sparsenet")
+S3method("summary","sparsenet")
+S3method("plot","sparsenet")
+S3method("plot","cv.sparsenet")
+S3method("coef","sparsenet")
