@@ -31,7 +31,7 @@ getcoef_list=function(fit,nvars,nx,vnames,ngamma){
         betalist[[i]]=list(beta=beta,df=df)
       }
   for(i in seq(ngamma)){
-    lambda=parms[2,i,]
+    lambda=parms[2,i,seq(lmu)]
     gamma=parms[1,i,1]
     a0=a0s[i,seq(lmu)]
     names(a0)=stepnames

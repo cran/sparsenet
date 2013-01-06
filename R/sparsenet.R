@@ -79,7 +79,7 @@ sparsenet=function(x,y,weights,exclude,dfmax=nvars+1,pmax=min(dfmax*2,nvars),nga
     coeflist=getcoef_list(fit,nvars,nx,vnames,ngamma)
     rsq=fit$rsq[,seq(lmu)]
     dimnames(rsq)=list(paste("g",seq(ngamma),sep=""),paste("l",seq(lmu),sep=""))
-    parms=fit$parms
+    parms=fit$parms[,,seq(lmu)]
     outlist=list(call=this.call,rsq=rsq,jerr=fit$jerr,coefficients=coeflist,parms=parms,gamma=parms[1,,1],lambda=parms[2,1,],max.lambda=max.lambda)
     class(outlist)="sparsenet"
     outlist
