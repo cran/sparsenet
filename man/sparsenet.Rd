@@ -14,7 +14,8 @@ Fit a linear model regularized by the nonconvex MC+ sparsity penalty
 sparsenet(x, y, weights, exclude, dfmax = nvars + 1, pmax = min(dfmax *2, nvars),
 ngamma = 9, nlambda = 50, max.gamma = 150, min.gamma = 1.000001,
 lambda.min.ratio = ifelse(nobs < nvars, 0.01, 1e-04), lambda = NULL,
-gamma = NULL, parms = NULL, warm = c("lambda", "gamma", "both"), thresh = 1e-05, maxit = 1e+06)
+gamma = NULL, parms = NULL, warm = c("lambda", "gamma", "both"),
+thresh = 1e-05, maxit = 1e+06)
 }
 \arguments{
   \item{x}{Input matrix of nobs x nvars predictors

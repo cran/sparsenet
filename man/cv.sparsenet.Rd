@@ -4,7 +4,8 @@
 \description{Does k-fold cross-validation for sparsenet, produces a plot,
   and returns values for \code{gamma, lambda}}
 \usage{
-cv.sparsenet(x, y, weights, type.measure = c("mse", "mae"), ...,nfolds = 10,foldid, trace.it=FALSE)
+cv.sparsenet(x, y, weights, type.measure = c("mse", "mae"), ...,nfolds = 10,
+       foldid, trace.it=FALSE)
 }
 \arguments{
   \item{x}{\code{x} matrix as in \code{sparsenet}.}

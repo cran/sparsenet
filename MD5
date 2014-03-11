@@ -1,5 +1,5 @@
-d58cab1a68380cd8b8d38aaee8dbbf2e *DESCRIPTION
-27266c1d3f6164a58d80a94944f475b8 *NAMESPACE
+89cc5189bc810da4c442317dcfaeac8c *DESCRIPTION
+c93a43cca1207e9e1402cad37b1466cf *NAMESPACE
 a9fea43fb457893b1c21c0ff31780ba5 *R/argmin.R
 6f772283a3913a6b50cc660abf60fa10 *R/coef.cv.sparsenet.R
 6262a356d419341d088064f814e3184b *R/coef.sparsenet.R
@@ -18,10 +18,11 @@ a71fe3c7715602799804713ec3a34879 *R/predict.sparsenet.R
 217bcda2bdaf64b30736d35403beea60 *R/sparsepredict.R
 67b07081eb228d2301c952e14c2420c4 *R/summary.sparsenet.R
 0d040824da1ffcd1edb57b252f6b1f6e *R/zeromat.R
+d5b44b59f23b953d6c2f8835e3fb180d *cleanup
 f8710d59d8eb569aa24d28a98f81d7f4 *configure
 42057f97e377d05e3f766c218a912a0f *configure.in
 c958f720990442fa6dafede1b2c5f45e *configure.win
-96bd3e932681afd11fe66494a8257dc5 *man/cv.sparsenet.Rd
+ba2fd5831913743e9ed4df129b6dcbf8 *man/cv.sparsenet.Rd
 8ae64c91120b5911d06ad5a1cb4c4ccf *man/gendata.Rd
 1cc8d6c527207a972a0413756499d98d *man/plot.cv.sparsenet.Rd
 d9bd686e34d65893b3249a1b01e3802c *man/plot.sparsenet.Rd
@@ -29,8 +30,7 @@ d9bd686e34d65893b3249a1b01e3802c *man/plot.sparsenet.Rd
 0b176491ffead1b517632e500686f02c *man/predict.sparsenet.Rd
 2cbf799900dc5767ed5b4328e5af6f90 *man/sparsenet-internal.Rd
 ba86acfa78b6f756ed422291f3f97bdd *man/sparsenet-package.Rd
-46872576c882c0f5fbeaa627055b80ba *man/sparsenet.Rd
-c5246ded08779ae23fd737f2e7d3ac25 *src/Makevars
+69642f84fb328d6d044f66c6a9c864de *man/sparsenet.Rd
 03d5d624b734ace367b45b789fbf66a4 *src/Makevars.in
 1bd30ec98a50c49ec6aabebbb458d0cb *src/Makevars.win
 d247a160a426e8eac82710195a86e8d1 *src/sparsenet.f90
