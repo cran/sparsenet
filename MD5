@@ -1,5 +1,5 @@
-89cc5189bc810da4c442317dcfaeac8c *DESCRIPTION
-c93a43cca1207e9e1402cad37b1466cf *NAMESPACE
+09ba086b8e0835ab6db243a4a9b8b284 *DESCRIPTION
+10390e9b9faa13a83e48cecf214ed1db *NAMESPACE
 a9fea43fb457893b1c21c0ff31780ba5 *R/argmin.R
 6f772283a3913a6b50cc660abf60fa10 *R/coef.cv.sparsenet.R
 6262a356d419341d088064f814e3184b *R/coef.sparsenet.R
@@ -18,10 +18,8 @@ a71fe3c7715602799804713ec3a34879 *R/predict.sparsenet.R
 217bcda2bdaf64b30736d35403beea60 *R/sparsepredict.R
 67b07081eb228d2301c952e14c2420c4 *R/summary.sparsenet.R
 0d040824da1ffcd1edb57b252f6b1f6e *R/zeromat.R
-d5b44b59f23b953d6c2f8835e3fb180d *cleanup
-f8710d59d8eb569aa24d28a98f81d7f4 *configure
-42057f97e377d05e3f766c218a912a0f *configure.in
-c958f720990442fa6dafede1b2c5f45e *configure.win
+ecf0e3d6d743e596de3a97e9378d009b *inst/CITATION
+97e2da2502eb65fab5ca0aaa671fc10d *inst/mortran/Fixed-sparsenet.m
 ba2fd5831913743e9ed4df129b6dcbf8 *man/cv.sparsenet.Rd
 8ae64c91120b5911d06ad5a1cb4c4ccf *man/gendata.Rd
 1cc8d6c527207a972a0413756499d98d *man/plot.cv.sparsenet.Rd
@@ -31,6 +29,5 @@ d9bd686e34d65893b3249a1b01e3802c *man/plot.sparsenet.Rd
 2cbf799900dc5767ed5b4328e5af6f90 *man/sparsenet-internal.Rd
 ba86acfa78b6f756ed422291f3f97bdd *man/sparsenet-package.Rd
 69642f84fb328d6d044f66c6a9c864de *man/sparsenet.Rd
-03d5d624b734ace367b45b789fbf66a4 *src/Makevars.in
-1bd30ec98a50c49ec6aabebbb458d0cb *src/Makevars.win
-d247a160a426e8eac82710195a86e8d1 *src/sparsenet.f90
+6e27d4c5453d2cd5076cf5b9050f7cdd *src/sparsenet.f
+c1a262c014564cedc438127c12304876 *src/sparsenet_init.c

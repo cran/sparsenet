@@ -1,0 +1,21 @@
+citHeader("To cite sparsenet in publications use:")
+
+citEntry(entry = "Article",
+  title        = "SparseNet: Coordinate Descent With Nonconvex Penalties",
+  author       = personList(as.person("Rahul Mazumder"),as.person("Jerome Friedman"),
+                   as.person("Trevor Hastie")),
+  journal      = "Journal of American Statistical Association",
+  year         = "2011",
+  volume       = "106",
+  number       = "495",
+  pages        = "1125--1138",
+  url          = "http://www.stanford.edu/~hastie/Papers/Sparsenet/jasa_MFH_final.pdf",
+
+  textVersion  =
+  paste("Rahul Mazumder, Jerome Friedman, Trevor Hastie (2011).",
+        "SparseNet: Coordinate Descent With Nonconvex Penalties.",
+        "Journal of American Statistical Association, 106(495), 1125-1138.",
+        "URL http://www.stanford.edu/~hastie/Papers/Sparsenet/jasa_MFH_final.pdf")
+)
+
+
