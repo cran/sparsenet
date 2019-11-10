@@ -1,6 +1,5 @@
 useDynLib("sparsenet")
 importFrom(utils,head,tail,packageDescription)
-importFrom(glmnet,plotCoef)
 importFrom(shape,colorlegend)
 importFrom("grDevices", "rainbow")
 importFrom("graphics", "abline", "axis", "lines", "mtext", "par",
@@ -8,7 +7,9 @@ importFrom("graphics", "abline", "axis", "lines", "mtext", "par",
 importFrom("methods", "cbind2", "new", "rbind2")
 importFrom("stats", "coef", "predict", "rnorm", "weighted.mean")
 importFrom("Matrix","drop0")
-importFrom("glmnet","lambda.interp","nonzeroCoef")
+importFrom("graphics", "matplot", "text")
+importFrom("stats", "approx")
+
 export(sparsenet,
        coef.sparsenet,coef.cv.sparsenet,cv.sparsenet,getcoef_list,plot.cv.sparsenet,plot.cv.sparsenet,plot.sparsenet,predict.cv.sparsenet,gendata,
        predict.sparsenet,print.cv.sparsenet,print.sparsenet,summary.sparsenet,sparsepredict)

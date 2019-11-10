@@ -8,6 +8,9 @@
 \alias{summary.sparsenet}
 \alias{print.cv.sparsenet}
 \alias{print.sparsenet}
+\alias{nonzeroCoef}
+\alias{plotCoef}
+\alias{lambda.interp}
 \description{Internal sparsenet functions}
 \author{Trevor Hastie}
 \details{These are not intended for use by users. \code{argmin}
