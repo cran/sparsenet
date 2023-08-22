@@ -9,13 +9,6 @@ Fit a linear model regularized by the nonconvex MC+ sparsity penalty
   and fits a surface of solutions over the two-dimensional parameter space.
 }
 \details{
-\tabular{ll}{
-Package: \tab sparsenet\cr
-Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2012-01-22\cr
-License: \tab GPL-2\cr
-}
 At its simplest, provide \code{x,y} data and it returns the solution
 paths. There are tools for prediction, cross-validation, plotting and printing.
 
@@ -26,7 +19,9 @@ Rahul Mazumder, Jerome Friedman and Trevor Hastie
 Maintainer: Trevor Hastie <hastie@stanford.edu>
 }
 \references{
-http://www.stanford.edu/~hastie/Papers/Sparsenet/jasa_MFH_final.pdf
+  Mazumder, Rahul, Friedman, Jerome and Hastie, Trevor (2011)
+  \emph{SparseNet: Coordinate Descent with Nonconvex Penalties. JASA, Vol 106(495), 1125-38},
+ \url{https://hastie.su.domains/public/Papers/Sparsenet/Mazumder-SparseNetCoordinateDescent-2011.pdf}
 }
 \keyword{ regression }
 \keyword{ package }

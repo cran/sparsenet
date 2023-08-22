@@ -1,8 +1,8 @@
 Package: sparsenet
 Type: Package
 Title: Fit Sparse Linear Regression Models via Nonconvex Optimization
-Version: 1.4
-Date: 2019-11-06
+Version: 1.5
+Date: 2023-08-21
 Author: Rahul Mazumder [aut, cre],
 	Trevor Hastie [aut, cre],
 	Jerome Friedman [aut, cre]
@@ -13,7 +13,7 @@ Imports: methods
 License: GPL-2
 NeedsCompilation: yes
 URL:
-        http://www.stanford.edu/~hastie/Papers/Sparsenet/jasa_MFH_final.pdf
-Packaged: 2019-11-09 21:33:47 UTC; hastie
+        https://hastie.su.domains/public/Papers/Sparsenet/Mazumder-SparseNetCoordinateDescent-2011.pdf
+Packaged: 2023-08-21 20:27:58 UTC; hastie
 Repository: CRAN
-Date/Publication: 2019-11-10 06:40:03 UTC
+Date/Publication: 2023-08-22 04:00:03 UTC

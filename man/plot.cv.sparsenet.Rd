@@ -13,8 +13,11 @@ Plots the cross-validation curves for each value of \code{gamma} in one figure, 
 \details{
 A plot is produced, and nothing is returned.}
 \references{
-http://www.stanford.edu/~hastie/Papers/Sparsenet/jasa_MFH_final.pdf
+ Mazumder, Rahul, Friedman, Jerome and Hastie, Trevor (2011)
+  \emph{SparseNet: Coordinate Descent with Nonconvex Penalties. JASA, Vol 106(495), 1125-38},
+ \url{https://hastie.su.domains/public/Papers/Sparsenet/Mazumder-SparseNetCoordinateDescent-2011.pdf}
 }
+
 
 \author{
 Rahul Mazumder, Jerome Friedman and Trevor Hastie
