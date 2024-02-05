@@ -1,9 +1,9 @@
-f17cdadf41aea50241baef45f88b83e8 *DESCRIPTION
+0a50449a6718e709c29fe07c27f65084 *DESCRIPTION
 e3f517197f6f9a8d778b8014bc461f7f *NAMESPACE
 a9fea43fb457893b1c21c0ff31780ba5 *R/argmin.R
 6f772283a3913a6b50cc660abf60fa10 *R/coef.cv.sparsenet.R
 6262a356d419341d088064f814e3184b *R/coef.sparsenet.R
-a06bd67c3bcc4d6c2fa5f00ff66ec5f2 *R/cv.sparsenet.R
+213835348349991cbd1ecffe108151f1 *R/cv.sparsenet.R
 c4bca889b5bb39cfec13fd2a8571477b *R/gendata.R
 b08aebb76a3cdc57346dae5b73dd0a41 *R/getcoef_list.R
 35bf3efaa29eefd8acc0a64b30b0c5e7 *R/lambda.interp.R
@@ -23,7 +23,7 @@ a71fe3c7715602799804713ec3a34879 *R/predict.sparsenet.R
 0d040824da1ffcd1edb57b252f6b1f6e *R/zeromat.R
 8446b3f8a6092bc1afa9f245ad3bc484 *inst/CITATION
 97e2da2502eb65fab5ca0aaa671fc10d *inst/mortran/Fixed-sparsenet.m
-dbd9ab717358e66667b9a168c7276a5e *man/cv.sparsenet.Rd
+6d0d5422428a5283cd7cd94b01eb2edf *man/cv.sparsenet.Rd
 8ae64c91120b5911d06ad5a1cb4c4ccf *man/gendata.Rd
 aea6b1a984dfc94feaf91002ec082e6a *man/plot.cv.sparsenet.Rd
 fe94e7efa601e1bbe1ba04c3c41435b4 *man/plot.sparsenet.Rd

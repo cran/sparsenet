@@ -1,4 +1,4 @@
-cv.sparsenet=function(x,y,weights,type.measure=c("mse","mae"),...,nfolds=10,foldid,trace.it=FALSE){
+cv.sparsenet=function(x,y,weights,type.measure=c("mse","mae"),...,nfolds=10,foldid,keep=FALSE,trace.it=FALSE){
 this.call=match.call()
   type.measure=match.arg(type.measure)
   N=nrow(x)
@@ -28,14 +28,14 @@ this.call=match.call()
     }
     if(trace.it)cat(i)
   }
-  
+
 
   N=length(y) - apply(is.na(predmat),c(2,3),sum)
   cvraw=switch(type.measure,
     "mse"=(y-predmat)^2,
     "mae"=abs(y-predmat)
     )
-  
+
   cvm=apply(cvraw,c(2,3),weighted.mean,w=weights,na.rm=TRUE)
 for(j in seq(ngamma))cvraw[,,j]=scale(cvraw[,,j],cvm[,j],FALSE)
   cvsd=apply(cvraw^2,c(2,3),weighted.mean,w=weights,na.rm=TRUE)/(N-1)
@@ -48,7 +48,8 @@ for(j in seq(ngamma))cvraw[,,j]=scale(cvraw[,,j],cvm[,j],FALSE)
   nz[!which]=1e40
   whichcv=argmin(nz)
   obj$parms.1se=parms[,whichcv[2],whichcv[1]]
-  obj$which.1se=whichcv
+obj$which.1se=whichcv
+if(keep)obj$fit.preval=predmat
   class(obj)="cv.sparsenet"
   obj
 }

@@ -5,7 +5,7 @@
   and returns values for \code{gamma, lambda}}
 \usage{
 cv.sparsenet(x, y, weights, type.measure = c("mse", "mae"), ...,nfolds = 10,
-       foldid, trace.it=FALSE)
+       foldid, keep=FALSE, trace.it=FALSE)
 }
 \arguments{
   \item{x}{\code{x} matrix as in \code{sparsenet}.}
@@ -23,6 +23,9 @@ mean-absolute error ( \code{type.measure="mae"} )
   \item{foldid}{an optional vector of values between 1 and \code{nfold}
     identifying whhat fold each observation is in. If supplied,
     \code{nfold} can be missing.}
+  \item{keep}{If \code{TRUE}, we include the prevalidation array as
+    component \code{fit.preval} on the returned object. Default is
+    \code{keep = FALSE}.}
   \item{trace.it}{If \code{TRUE}, then we get a printout that shows the
     progress}
   }

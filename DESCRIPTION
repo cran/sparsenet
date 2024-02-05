@@ -1,8 +1,8 @@
 Package: sparsenet
 Type: Package
 Title: Fit Sparse Linear Regression Models via Nonconvex Optimization
-Version: 1.5
-Date: 2023-08-21
+Version: 1.6
+Date: 2024-02-05
 Author: Rahul Mazumder [aut, cre],
 	Trevor Hastie [aut, cre],
 	Jerome Friedman [aut, cre]
@@ -14,6 +14,6 @@ License: GPL-2
 NeedsCompilation: yes
 URL:
         https://hastie.su.domains/public/Papers/Sparsenet/Mazumder-SparseNetCoordinateDescent-2011.pdf
-Packaged: 2023-08-21 20:27:58 UTC; hastie
+Packaged: 2024-02-05 20:12:57 UTC; hastie
 Repository: CRAN
-Date/Publication: 2023-08-22 04:00:03 UTC
+Date/Publication: 2024-02-05 21:20:02 UTC
